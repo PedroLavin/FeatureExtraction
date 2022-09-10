@@ -5,6 +5,7 @@
 #SBATCH --mem=60G
 
 # module load Python
-module load Python/3.8.2
+$ module --ignore-cache load "Python/3.8.2"
+# module load Python/3.8.2
 
 python --project --threads 10 ./Malware.py

@@ -8,4 +8,4 @@
 module --ignore-cache load "Python/3.8"
 #module load Python/3.9
 
-python ./Malware.py
+python3.8 ./Malware.py

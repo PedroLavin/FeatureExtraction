@@ -5,7 +5,7 @@
 #SBATCH --mem=60G
 
 # module load Python
-#module --ignore-cache load "Python/3.8"
-module load Python/3.9
+module --ignore-cache load "Python/3.8"
+#module load Python/3.9
 
-python3.9 ./Malware.py
+python3.8 Malware.py
